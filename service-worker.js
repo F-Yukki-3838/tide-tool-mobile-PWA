@@ -3,11 +3,11 @@ const CACHE_NAME = 'pwa-cache-v1';
 
 // オフラインで利用可能にしたいファイルのリスト
 const ASSETS_TO_CACHE = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/icon-192.png',
-  '/icon-512.png'
+  './',
+  './index.html',
+  './manifest.json',
+  './icon-192.png',
+  './icon-512.png'
 ];
 
 // ① インストールイベント：ファイルをキャッシュに登録する
