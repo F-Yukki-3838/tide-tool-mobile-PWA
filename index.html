@@ -4,6 +4,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="text-scale" content="scale" />
+		<link rel="manifest" href="/manifest.json">
 		<link href="./_app/immutable/entry/start.DNp-jjSn.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/DllYy9j3.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/zYE8Ukyf.js" rel="modulepreload">
@@ -43,3 +44,9 @@
 		</div>
 	</body>
 </html>
+<script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("/sw.js");
+  }
+</script>
+
